@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/types.d.ts",
   "author": "Hernan Rajchert <hrajchert@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -26,11 +27,15 @@
     "contributors-generate": "all-contributors generate"
   },
   "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
     "tsns": "0.0.15",
     "typescript": "^2.3.2"
   },
   "devDependencies": {
     "@types/chai": "^3.5.1",
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.11.0",
     "@types/mocha": "^2.2.41",
     "@types/node": "^7.0.12",
     "all-contributors-cli": "^4.5.1",
